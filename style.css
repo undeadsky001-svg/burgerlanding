@@ -18,6 +18,11 @@ body {
     margin: 0;
  }
 
+ h1, h2, h3, h4, h5, h6 {
+   font-weight: 500;
+   margin: 0;
+ }
+
  .container {
    max-width: 1140px;
    margin: 0 auto;
@@ -74,3 +79,40 @@ height: 49px;
    opacity: 0.8;
    transition: opacity 0.3s;
  }
+
+ .main {
+
+ }
+
+
+ .welcome {
+background-image: url("./WEB PRO Burger Landing/images/welcome-bg.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+padding: 240px 0px;
+margin-top: -100px;
+}
+
+.welcome__text {
+   width: 550px;
+}
+
+.welcome__subtitle {
+margin-bottom: 7px;
+font-size: 14px;
+letter-spacing: 0.1em;
+}
+
+.welcome__title {
+font-size: 57px;
+}
+
+.welcome_desc {
+margin: 40px 0px;
+font-weight: 400;
+font-size: 18px;
+opacity: 0.7;
+}
+ 
